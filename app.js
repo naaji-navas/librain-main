@@ -319,9 +319,6 @@ app.post('/upload', async (req, res) => {
     })
     console.log(result.data)
 
-
-
-
     const uploaded = new File({
         path: result.data.webViewLink,
         name: file.name,
